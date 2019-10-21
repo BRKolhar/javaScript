@@ -1,3 +1,5 @@
+<script type="text/javascript">
+    
 var visitorCount = (function() 
 {
     var privateVisitorCounter = 0;
@@ -37,3 +39,4 @@ console.log(visitorCount.totalHits());
 // 1
 // 0
 // 1
+</script>
