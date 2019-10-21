@@ -1,12 +1,8 @@
-<script type="text/javascript">
-    
-var visitorCount = (function() 
-{
+var visitorCount = (function() {
     var privateVisitorCounter = 0;
-    
+
     // inner function
-    function changeBy(val) 
-    {
+    function changeBy(val) {
         privateVisitorCounter += val;
     }
 
@@ -39,4 +35,3 @@ console.log(visitorCount.totalHits());
 // 1
 // 0
 // 1
-</script>
